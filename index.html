@@ -2,72 +2,173 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
 <body>
 
-  Features
-  Team
-  Sign In
+  <header>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo image">
+    </div>
 
-  All your files in one secure location, accessible anywhere.
+    <nav>
+      <ul>
+        <li><a href="#features">features</a></li>
+        <li><a href="#team">team</a></li>
+        <li><a href="#form">sign in</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
 
-  Get Started
 
-  Stay productive, wherever you are
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+  <div id="showcase">
+    
+    <div class="showcase_inner">
+      
+      <div class="text">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores all your most important files in one secure location.
+          Access then wherever you need, share and collaborate with friends, family
+          and co-workers.
+        </p>
+        <form action="#" name="form" for="#" method="POST">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button name="submit" type="submit">Set started</button>
+        </form>
+      </div>
 
-  See how Fylo works
+      <div class="image">
+        <img src="./images/illustration-1.svg" alt="">
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  
 
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
 
-  Kyle Burton
-  Founder & CEO, Huddle
+  <div id="team">
 
-  Get early access today
+    <div class="team_inner">
+      
+      <div class="text">
+        <h3>Stay Productive,<br>wherever you are</h3>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you covered for all of your 
+          file storage needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues for live collaboration.
+          No email attachments required.
+        </p>
+        <a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
 
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
+        <div class="card">
+          <p>
+            Fylo has improved our team productivity y an order of magnitude. Since making the switch our team
+            has become a well-oiled collaboration machine.
+          </p>
+          <div class="profile">
+            <img src="./images/profile-1.jpg" alt="">
+            <span><b>Satish Pacel</b><br>Founder & CEO, Huddle</span>
+          </div>
+        </div>
+      </div>
 
-  Get Started For Free
 
-  Phone: +1-543-123-4567
-  example@fylo.com
 
-  About Us
-  Jobs
-  Press
-  Blog
+      <div class="image">
+        <img src="./images/illustration-2.svg" alt="">
+      </div>
+      
+    </div>
+    
+  </div>
 
-  Contact Us
-  Terms
-  Privacy
+
+
+
+
+
+
+
+
+
+  <form action="#" method="POST" for="#" name="form" id="form">
+
+    <h3>Get early access today</h3>
+    <p>
+      It only takes a minute to sign up and our free starter tier is extremely generous.<br>If you have any
+      questions, our support team would be happy to help you.
+    </p>
+
+    <input type="email" name="email" placeholder="email@example.com">
+    <button type="submit" name="submit" class="btn">Get started for free</button>
+    
+  </form>
+  
+
+
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    
+    <div class="footer_inner">
+
+      <div class="home">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <p>
+         Adipisicing elit. Porro ea sequi voluptates soluta, blanditiis voluptatum velit consequatur aliquid corporis optio?
+        </p>
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <img src="./images/icon-phone.svg" alt=""><span>+1-543-235-0566</span>
+          </li>
+          <li>
+            <img src="./images/icon-email.svg" alt=""><span>info@fylo.com</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li>About us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li>Contact us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+
+      <div class="social">
+        <ul>
+          <li><img src="./images/facebook.svg" alt=""></li>
+          <li><img src="./images/twitter.svg" alt=""></li>
+          <li><img src="./images/instagram.svg" alt=""></li>
+        </ul>
+      </div>
+      
+    </div>
+
   </footer>
 </body>
 </html>
