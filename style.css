@@ -103,7 +103,7 @@ nav a:hover{
     width: 80%;
     text-align: center;
     margin: auto;
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 .showcase_inner{
@@ -145,7 +145,7 @@ nav a:hover{
 
 #team{
     background: url(./images/bg-curve-desktop.svg)no-repeat center/cover;
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 .team_inner{
@@ -238,7 +238,7 @@ nav a:hover{
 
 
 #form{
-    padding: 4rem 0;
+    padding: 6rem 0;
     background-color: var(--primary-blue);
 }
 
@@ -291,7 +291,7 @@ nav a:hover{
 footer{
     position: relative;
     background-color: var(--primary-darkblue);
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 .footer_inner{
@@ -456,7 +456,7 @@ footer{
 
 
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 630px){
     
     
     header{
